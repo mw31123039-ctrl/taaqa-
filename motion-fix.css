@@ -1,0 +1,7 @@
+.service-card:hover {
+  transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry)) translateY(-12px) !important;
+}
+
+@media (max-width: 800px), (prefers-reduced-motion: reduce) {
+  .service-card:hover { transform: none !important; }
+}

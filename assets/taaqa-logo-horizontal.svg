@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 230" role="img" aria-labelledby="title">
+  <title id="title">TAAQA</title>
+  <g fill="#ff7900">
+    <path d="M42 164a78 78 0 0 1 156 0h-29a49 49 0 0 0-98 0z"/>
+    <rect x="112" y="14" width="17" height="54" rx="8.5"/>
+    <rect x="55" y="38" width="17" height="52" rx="8.5" transform="rotate(-31 63.5 64)"/>
+    <rect x="169" y="38" width="17" height="52" rx="8.5" transform="rotate(31 177.5 64)"/>
+    <rect x="16" y="83" width="17" height="58" rx="8.5" transform="rotate(-56 24.5 112)"/>
+    <rect x="208" y="83" width="17" height="58" rx="8.5" transform="rotate(56 216.5 112)"/>
+    <rect x="0" y="155" width="55" height="18" rx="9"/>
+    <rect x="185" y="155" width="55" height="18" rx="9"/>
+  </g>
+  <text x="270" y="169" fill="#ffffff" font-family="Arial Black,Arial,Helvetica,sans-serif" font-size="132" font-weight="900" letter-spacing="-8">TAAQA</text>
+</svg>
