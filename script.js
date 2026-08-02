@@ -6,6 +6,9 @@ const translations = {
 Object.assign(translations.en,{navProjects:"Projects",videoLabel:"TAAQA IN ACTION",videoTitle:"See the energy.<br><em>See the difference.</em>",videoCopy:"Take a closer look at our work and the solar solutions we deliver."});
 Object.assign(translations.ku,{navProjects:"پڕۆژەکان",videoLabel:"تاقە لە کاردا",videoTitle:"وزەکە ببینە.<br><em>جیاوازییەکە ببینە.</em>",videoCopy:"لە نزیکەوە سەیری کار و چارەسەرە خۆرییەکانمان بکە."});
 Object.assign(translations.ar,{navProjects:"المشاريع",videoLabel:"طاقة على أرض الواقع",videoTitle:"شاهد الطاقة.<br><em>شاهد الفرق.</em>",videoCopy:"ألقِ نظرة أقرب على أعمالنا وحلول الطاقة الشمسية التي نقدمها."});
+Object.assign(translations.en,{navCatalogue:"Catalogue"});
+Object.assign(translations.ku,{navCatalogue:"کەتەلۆگ"});
+Object.assign(translations.ar,{navCatalogue:"الكتالوج"});
 
 function setLanguage(lang){
   const dictionary=translations[lang]||translations.en;

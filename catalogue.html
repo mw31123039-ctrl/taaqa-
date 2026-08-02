@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#07172f" />
+  <title>Taaqa | Product Catalogue</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="catalogue.css" />
+</head>
+<body>
+  <header class="catalogue-nav">
+    <a href="index.html" class="catalogue-logo"><img src="assets/taaqa-logo-horizontal.svg" alt="Taaqa" /></a>
+    <a href="index.html" class="back-link"><span>←</span><span data-t="back">Back to website</span></a>
+    <div class="catalogue-languages"><button data-lang="en" class="active">EN</button><button data-lang="ku">کوردی</button><button data-lang="ar">العربية</button></div>
+  </header>
+
+  <main>
+    <section class="catalogue-hero">
+      <div class="hero-copy">
+        <p class="kicker" data-t="kicker">TAAQA PRODUCT CATALOGUE</p>
+        <h1 data-t="title">Power your world with<br><em>better technology.</em></h1>
+        <p data-t="intro">Explore professional solar panels, inverters, batteries, and accessories selected for reliable performance.</p>
+        <a href="https://wa.me/9647505912323" class="quote-button"><span data-t="ask">Ask for today’s price</span><b>↗</b></a>
+      </div>
+      <div class="hero-product" aria-hidden="true"></div>
+    </section>
+
+    <section class="catalogue-section">
+      <div class="catalogue-heading">
+        <div><p class="kicker" data-t="rangeLabel">OUR RANGE</p><h2 data-t="rangeTitle">Find your solution.</h2></div>
+        <p class="price-note" data-t="priceNote">Prices are provided in USD through WhatsApp because stock and market prices may change.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Product filters">
+        <button class="active" data-filter="all" data-t="all">All products</button>
+        <button data-filter="panel" data-t="panels">Solar panels</button>
+        <button data-filter="inverter" data-t="inverters">Inverters</button>
+        <button data-filter="battery" data-t="batteries">Batteries</button>
+        <button data-filter="accessory" data-t="accessories">Accessories</button>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-category="panel"><div class="product-image panel"></div><div class="product-body"><span class="tag" data-t="panels">Solar panels</span><h3>610W–650W High-Power Panel</h3><p data-t="panelDesc">High-efficiency modules for homes, businesses, and large installations.</p><div class="specs"><span>610 / 620 / 630 / 640 / 650W</span><span>Mono</span></div><a data-product="610W–650W Solar Panel" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="inverter"><div class="product-image inverter"></div><div class="product-body"><span class="tag" data-t="inverters">Inverters</span><h3 data-t="inverterTitle">Hybrid Inverters up to 22 kW</h3><p data-t="inverterDesc">Flexible power conversion for residential and commercial solar systems.</p><div class="specs"><span>5 / 8 / 10 / 12 / 16 / 22 kW</span><span>Deye</span></div><a data-product="Hybrid Inverter up to 22kW" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>Deye Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>Deye</span></div><a data-product="Deye Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>Ginix Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>Ginix</span></div><a data-product="Ginix Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>Green Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>Green</span></div><a data-product="Green Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>Lumity Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>Lumity</span></div><a data-product="Lumity Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>Verda Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>Verda</span></div><a data-product="Verda Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="battery"><div class="product-image battery"></div><div class="product-body"><span class="tag" data-t="batteries">Batteries</span><h3>BYD Battery</h3><p data-t="batteryDesc">Smart energy storage options with capacities available up to 17 kWh.</p><div class="specs"><span data-t="upTo17">Up to 17 kWh</span><span>BYD</span></div><a data-product="BYD Battery up to 17kWh" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+        <article class="product-card" data-category="accessory"><div class="product-image accessory"></div><div class="product-body"><span class="tag" data-t="accessories">Accessories</span><h3 data-t="accessoryTitle">Complete Installation Accessories</h3><p data-t="accessoryDesc">Cables, MC4 connectors, breakers, protection boxes, and mounting hardware.</p><div class="specs"><span>MC4 / DC</span><span data-t="available">Available</span></div><a data-product="Solar Installation Accessories" href="#"><span data-t="contactPrice">Contact for USD price</span><b>↗</b></a></div></article>
+      </div>
+    </section>
+  </main>
+  <footer><img src="assets/taaqa-logo-horizontal.svg" alt="Taaqa"/><p>+964 750 591 2323 · mohammedmahmoud58@gmail.com</p></footer>
+  <script src="catalogue.js"></script>
+</body>
+</html>
