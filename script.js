@@ -9,6 +9,9 @@ Object.assign(translations.ar,{navProjects:"المشاريع",videoLabel:"طاق
 Object.assign(translations.en,{navCatalogue:"Catalogue"});
 Object.assign(translations.ku,{navCatalogue:"کەتەلۆگ"});
 Object.assign(translations.ar,{navCatalogue:"الكتالوج"});
+Object.assign(translations.en,{visitUs:"VISIT US",officeAddress:"32 Park, Erbil, Iraq"});
+Object.assign(translations.ku,{visitUs:"سەردانمان بکە",officeAddress:"32 پارک، هەولێر، عێراق"});
+Object.assign(translations.ar,{visitUs:"زورونا",officeAddress:"32 بارك، أربيل، العراق"});
 
 function setLanguage(lang){
   const dictionary=translations[lang]||translations.en;
